@@ -1,0 +1,130 @@
+@import "variables";
+
+.b-medfully-navbar {
+  background-color: $medfuly-primary-color;
+  height: 100px;
+  font-size: $desktop-xs-font-size;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  .portlet {
+    margin: 0;
+  }
+
+  &__logo {
+    //width: 140px;
+    max-width: 150px;
+    margin: 22px;
+    display: inline-block;
+  }
+  &__links {
+    height: 100%;
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+
+    &.navbar-collapse {
+      padding: 0;
+    }
+  }
+  &__link {
+    color: $medfuly_blue-ligth;
+    line-height: 100px;
+    padding: 0 10px;
+    &--active {
+      color: #fff;
+    }
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__actions {
+    color: $medfuly_blue-ligth;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    height: 100%;
+    padding: 0 40px 0 20px;
+  }
+
+  &__action {
+    line-height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    &:hover {
+      color: white;
+    }
+  }
+
+  &__mobile {
+    padding-left: 20px;
+  }
+
+  .navbar-toggle {
+    border: none;
+    height: 60px;
+    margin: 0;
+    color: $medfuly_blue-ligth;
+    font-size: 1.5em;
+    &:hover {
+      background-color: inherit;
+      color: white;
+    }
+  }
+
+  .search-wrapper {
+    margin: 0;
+    .portlet-body {
+      line-height: 100px;
+
+      .search-input {
+        display: none;
+      }
+    }
+  }
+
+}
+
+// responsive Tablet
+@media (max-width: $max-width-md) {
+  .b-medfully-navbar {
+    height: 60px;
+    &__logo {
+      margin: 0 20px;
+    }
+    &__link {
+      line-height: 60px;
+      padding: 0 5px;
+    }
+    &__action {
+      line-height: 60px;
+    }
+    &__actions {
+      padding: 0 10px 0 5px;
+    }
+    .search-wrapper {
+      .portlet-body {
+        line-height: 60px;
+      }
+    }
+  }
+
+}
+
+// responsive Mobile
+@media (max-width: $max-width-sm) {
+  .b-medfully-navbar {
+    &__logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+

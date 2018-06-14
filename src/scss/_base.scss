@@ -1,0 +1,118 @@
+/**
+* base.scss
+* Includes the general and basic styles for tags
+*/
+@import "variables";
+
+.b-medfully-h1 {
+  font-family: $medfuly_font;
+  font-size: $desktop-h1-font-size;
+  font-weight: $bold-font-weight;
+  line-height: $heading-line-height;
+  letter-spacing: $desktop-xl-letter-spacing;
+  color: $medfuly-primary-color;
+}
+
+.b-medfully-h2 {
+  font-family: $medfuly_font;
+  font-size: $desktop-h2-font-size;
+  font-weight: $bold-font-weight;
+  line-height: $heading-line-height;
+  letter-spacing: $desktop-sm-letter-spacing;
+  color: $medfuly-primary-color;
+}
+
+.b-medfully-h3 {
+  font-family: $medfuly_font;
+  font-size: $desktop-h3-font-size;
+  font-weight: $bold-font-weight;
+  line-height: $heading-line-height;
+  letter-spacing: $desktop-xs-letter-spacing;
+  color: $medfuly-primary-color;
+}
+
+.b-medfully-h4 {
+  font-family: $medfuly_font;
+  font-size: $desktop-h4-font-size;
+  font-weight: $bold-font-weight;
+  line-height: $heading-line-height;
+  letter-spacing: normal;
+  color: $medfuly-primary-color;
+}
+
+.b-medfully-h5 {
+  font-family: $medfuly_font;
+  font-size: $desktop-h5-font-size;
+  font-weight: $bold-font-weight;
+  line-height: $heading-line-height;
+  letter-spacing: normal;
+  color: $medfuly-primary-color;
+}
+
+body {
+  font-family: $medfuly_font;
+  font-size: $desktop-font-size;
+  font-weight: $normal-font-weight;
+  line-height: $body-text-line-height;
+  letter-spacing: $desktop-sm-letter-spacing;
+  color: $medfuly-primary-color;
+
+}
+
+.b-medfully-text {
+  display: block;
+  &--small {
+    font-size: $desktop-xs-font-size;
+    line-height: $inter-text-line-height;
+    letter-spacing: $desktop-letter-spacing;
+  }
+  &--caption {
+    font-size: $desktop-xs-font-size;
+    font-style: italic;
+    line-height: $body-text-line-height;
+    color: $medfuly_blue-ligth;
+  }
+  &--quote {
+    font-size: $desktop-md-font-size;
+    font-weight: $normal-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: $desktop-xs-letter-spacing;
+    color: $medfuly_blue-ligth;
+  }
+  &--into {
+    font-size: $desktop-lg-font-size;
+    font-weight: $normal-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: $desktop-lg-letter-spacing;
+    color: $medfuly_blue-ligth;
+  }
+  &--summary {
+    font-size: $desktop-sm-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $inter-text-line-height;
+    letter-spacing: $desktop-md-letter-spacing;
+  }
+  &--highligted {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: -10px;
+      bottom: 0;
+      left: 0;
+      border-top: 4px solid $med-pink;
+      width: 50px;
+      display: block;
+    }
+  }
+}
+
+.b-medfully-bg {
+  &--grey {
+    background-color: $med-gray;
+    color: white;
+    padding: 20px;
+  }
+}
+
+

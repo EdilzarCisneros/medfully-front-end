@@ -1,0 +1,104 @@
+/**
+* variables.scss
+* Contains all SCSS variables
+*/
+
+//Color Variables
+$medfuly-primary-color: #223755;
+$medfuly-blue: #274062;
+$medfuly_blue-ligth: #728399;
+$med-gray: #797979;
+$med-gray-light: #e6e9ed;
+$med-pink: #f9129b;
+$body-bg-color: #fff;
+
+$max-width-lg: 1199px;
+$max-width-md: 991px;
+$max-width-sm: 767px;
+$max-width-xs: 479px;
+
+//Text Variables
+$medfuly_font: "HKGrotesk", sans-serif;
+$bold-font-weight: bold;
+$normal-font-weight: 300;
+
+$desktop-font-size: 21px;
+$tablet-font-size: 18px;
+$mobile-font-size: 16px;
+
+//Body Variables
+$desktop-lg-font-size: 1.61em; //34
+$desktop-md-font-size: 1.428em; //30
+$desktop-sm-font-size: 0.952em; //20
+$desktop-xs-font-size: 0.761em; //16
+
+$tablet-lg-font-size: 1.66em; //30
+$tablet-md-font-size: 1.44em; //26
+$tablet-sm-font-size: 1.33em; //24
+$tablet-xs-font-size: 0.77em; //14
+
+$mobile-lg-font-size: 1.875em; //30
+$mobile-md-font-size: 1.25em; //20
+$mobile-sm-font-size: 1.125em; //18
+$mobile-xs-font-size: 0.875em; //14
+
+//line-height
+$heading-line-height: 1.2;
+$body-text-line-height: 1.6;
+$inter-text-line-height: 1.4;
+
+
+//h1 Variables
+$desktop-h1-font-size: 2.285em; //48
+$tablet-h1-font-size: 2.222em; //40
+$mobile-h1-font-size: 2.125px; //34
+
+//h2 Variables
+$desktop-h2-font-size: 1.7em; // 36
+$tablet-h2-font-size: 1.77em; //32
+$mobile-h2-font-size: 1.8em; // 28
+
+//h3 Variables
+$desktop-h3-font-size: 1.33em; //28
+$tablet-h3-font-size: 1.33em; //24
+$mobile-h3-font-size: 1.375em; //20
+
+//h4 Variables
+$desktop-h4-font-size: 1.045em; //22
+$tablet-h4-font-size: 1.1em; // 20
+$mobile-h4-font-size: 1.25em; //20
+
+//h5 Variables
+$desktop-h5-font-size: 0.85em; //18
+$tablet-h5-font-size: 1em; //18
+$mobile-h5-font-size: 1.125em; //18
+
+
+//tablet letter spacing
+$tablet-letter-spacing: 0.5px;
+$tablet-lg-letter-spacing: 0.9px;
+$tablet-md-letter-spacing: 0.7px;
+$tablet-sm-letter-spacing: 0.6px;
+$tablet-xs-letter-spacing: 0.4px;
+
+//mobile letter spacing
+
+$mobile-letter-spacing: 0.3px;
+$mobile-xl-letter-spacing: 1px;
+$mobile-lg-letter-spacing: 0.8px;
+$mobile-md-letter-spacing: 0.7px;
+$mobile-sm-letter-spacing: 0.5px;
+$mobile-xs-letter-spacing: 0.4px;
+
+//Desktop letter spacing
+$desktop-letter-spacing: 0.3px;
+$desktop-xl-letter-spacing: 1px;
+$desktop-lg-letter-spacing: 0.8px;
+$desktop-md-letter-spacing: 0.7px;
+$desktop-sm-letter-spacing: 0.5px;
+$desktop-xs-letter-spacing: 0.4px;
+
+$size-xs: 5px;
+$size-sm: 10px;
+$size-md: 20px;
+$size-lg: 40px;

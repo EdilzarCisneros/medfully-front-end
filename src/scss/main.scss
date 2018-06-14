@@ -1,0 +1,12 @@
+/**
+* main.scss
+* Integrates all SCSS assets
+*/
+
+@import "base";
+@import "base-tablet";
+@import "base-mobile";
+@import "utils";
+@import "bootstrap.overrides";
+@import "liferay.overrides";
+@import "navbar";

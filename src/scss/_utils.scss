@@ -1,0 +1,229 @@
+/**
+*
+* utils.scss
+*
+* Everything that is re-usable across the portal and it is not attached to a particular UI component or widget
+*/
+
+@import "variables";
+
+.clearfix {
+	clear: both;
+}
+
+// Font sizes
+.text-xs {
+	font-size: $size-xs;
+}
+
+.text-sm {
+	font-size: $size-sm;
+}
+
+.text-md {
+	font-size: $size-md;
+}
+
+.text-lg {
+	font-size: $size-lg;
+}
+
+.strong-text {
+	font-weight: bold;
+}
+
+
+// Extra small padding
+.padding-left-xs {
+	padding-left: $size-xs;
+}
+
+.padding-right-xs {
+	padding-right: $size-xs;
+}
+
+.padding-top-xs {
+	padding-top: $size-xs;
+}
+
+.padding-top-lg {
+	padding-top: $size-lg;
+}
+
+.padding-bottom-xs {
+	padding-bottom: $size-xs;
+}
+
+.padding-all-xs {
+	padding: $size-xs;
+}
+
+// Small padding
+.padding-left-sm {
+	padding-left: $size-sm;
+}
+
+.padding-right-sm {
+	padding-right: $size-sm;
+}
+
+.padding-top-sm {
+	padding-top: $size-sm;
+}
+
+.padding-bottom-sm {
+	padding-bottom: $size-sm;
+}
+
+.padding-all-sm {
+	padding: $size-sm;
+}
+
+// Medium padding
+.padding-left-md {
+	padding-left: $size-md;
+}
+
+.padding-right-md {
+	padding-right: $size-md;
+}
+
+.padding-top-md {
+	padding-top: $size-md;
+}
+
+.padding-bottom-md {
+	padding-bottom: $size-md;
+}
+
+.padding-all-md {
+	padding: $size-md;
+}
+
+// Large padding
+.padding-left-lg {
+	padding-left: $size-lg;
+}
+
+.padding-right-lg {
+	padding-right: $size-lg;
+}
+
+.padding-top-lg {
+	padding-top: $size-lg;
+}
+
+.padding-bottom-lg {
+	padding-bottom: $size-lg;
+}
+
+.padding-all-lg {
+	padding: $size-lg;
+}
+
+// Margin
+
+.margin-all-xs {
+	margin: $size-xs;
+}
+
+.margin-all-sm {
+	margin: $size-sm;
+}
+
+.margin-all-md {
+	margin: $size-md;
+}
+
+.margin-all-lg {
+	margin: $size-lg;
+}
+
+
+.margin-top-xs {
+	margin-top: $size-xs;
+}
+
+.margin-top-sm {
+	margin-top: $size-sm;
+}
+
+.margin-top-md {
+	margin-top: $size-md;
+}
+
+.margin-top-lg {
+	margin-top: $size-lg;
+}
+
+.margin-left-xs {
+	margin-left: $size-xs;
+}
+
+.margin-left-sm {
+	margin-left: $size-sm;
+}
+
+.margin-left-md {
+	margin-left: $size-md
+}
+
+.margin-left-lg {
+	margin-left: $size-lg;
+}
+
+.margin-bottom-xs {
+	margin-bottom: $size-xs
+}
+
+.margin-bottom-sm {
+	margin-bottom: $size-sm
+}
+
+.margin-bottom-md {
+	margin-bottom: $size-md;
+}
+
+.margin-bottom-lg {
+	margin-bottom: $size-lg;
+}
+
+.margin-right-xs {
+	margin-right: $size-xs;
+}
+
+.margin-right-sm {
+	margin-right: $size-sm;
+}
+
+.margin-right-md {
+	margin-right: $size-md;
+}
+
+.margin-right-lg {
+	margin-right: $size-lg;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.display-block {
+	display: block;
+}
+
+.max-width-lg {
+	max-width: $max-width-lg;
+}
+
+.max-width-md {
+	max-width: $max-width-md;
+}
+
+.max-width-sm {
+	max-width: $max-width-sm;
+}
+
+.max-width-xs {
+	max-width: $max-width-xs;
+}

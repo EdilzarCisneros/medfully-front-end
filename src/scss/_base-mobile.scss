@@ -1,0 +1,86 @@
+/**
+* base.scss
+* Includes the general and basic styles for tags
+*/
+@import "variables";
+
+@media (max-width: $max-width-sm) {
+
+  .b-medfully-h1 {
+    font-family: $medfuly_font;
+    font-size: $mobile-h1-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: $mobile-xs-letter-spacing;
+    color: $medfuly-primary-color;
+  }
+
+  .b-medfully-h2 {
+    font-family: $medfuly_font;
+    font-size: $mobile-h2-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: $mobile-letter-spacing;
+    color: $medfuly-primary-color;
+  }
+
+  .b-medfully-h3 {
+    font-family: $medfuly_font;
+    font-size: $mobile-h3-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: $mobile-sm-letter-spacing;
+    color: $medfuly-primary-color;
+  }
+
+  .b-medfully-h4 {
+    font-family: $medfuly_font;
+    font-size: $mobile-h4-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: normal;
+    color: $medfuly-primary-color;
+  }
+
+  .b-medfully-h5 {
+    font-family: $medfuly_font;
+    font-size: $mobile-h5-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $heading-line-height;
+    letter-spacing: normal;
+    color: $medfuly-primary-color;
+  }
+
+
+  body {
+    font-family: $medfuly_font;
+    font-size: $mobile-font-size;
+    font-weight: $normal-font-weight;
+    line-height: $body-text-line-height;
+    letter-spacing: $mobile-sm-letter-spacing;
+    color: $medfuly-primary-color;
+
+  }
+
+
+  .b-medfully-text {
+    display: block;
+    &--caption {
+      font-size: $mobile-xs-font-size;
+      font-style: italic;
+      line-height: $body-text-line-height;
+    }
+    &--quote {
+      font-size: $mobile-sm-font-size;
+      font-weight: $normal-font-weight;
+      line-height: $heading-line-height;
+      letter-spacing: $mobile-letter-spacing;
+    }
+    &--into {
+      font-size: $mobile-md-font-size;
+      font-weight: $normal-font-weight;
+      line-height: $heading-line-height;
+      letter-spacing: $mobile-xs-letter-spacing;
+    }
+  }
+}
